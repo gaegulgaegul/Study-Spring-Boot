@@ -1,0 +1,9 @@
+spring:
+    datasource:
+        url: jdbc:mariadb://127.0.0.1:3306/rest
+        username: rest
+        password: rest
+        driver-class-name: org.mariadb.jdbc.Driver
+
+server:
+    port: 8081
