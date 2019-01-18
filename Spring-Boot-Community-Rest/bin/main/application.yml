@@ -1,0 +1,14 @@
+spring:
+    datasource:
+        url: jdbc:mariadb://127.0.0.1:3306/rest
+        username: rest
+        password: rest
+        driver-class-name: org.mariadb.jdbc.Driver
+    data:
+        rest:
+            base-path: /api
+             default-page-size: 10
+             max-page-size: 10
+             
+server:
+    port: 8081
