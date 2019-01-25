@@ -1,0 +1,14 @@
+spring:
+    datasource:
+        url: ${MYSQL_URL}
+        username: ${MYSQL_USERNAME}
+        password: ${MYSQL_PASSWORD}
+        driver-class-name: com.mysql.jdbc.Driver
+    data:
+        rest:
+            base-path: /api
+            default-page-size: 10
+            max-page-size: 10
+        
+server:
+    port: 8081
