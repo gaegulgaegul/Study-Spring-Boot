@@ -57,7 +57,6 @@ public class User implements Serializable {
 	@Builder
 	public User(String name, String password, String email, String principal, SocialType socialType,
 			LocalDateTime createdDate, LocalDateTime updatedDate) {
-		super();
 		this.name = name;
 		this.password = password;
 		this.email = email;
